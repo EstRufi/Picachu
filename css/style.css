@@ -1,0 +1,25 @@
+/* o root é como se fosse o main do java */
+:root{
+    /* o -- é para comecar a variavel */
+    --primary-color: #F5CF06;
+    --secundary-color: #8E4106;
+}
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aqua;
+}
+
+main{
+    background-color: blue;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: red;
+}
