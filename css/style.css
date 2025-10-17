@@ -157,4 +157,8 @@ footer{
     .pikachu{
         height: 50vh;
     }
+
+    header{
+        height: 10px;
+    }
 }
