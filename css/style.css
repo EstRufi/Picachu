@@ -37,6 +37,7 @@ main{
     z-index: -99;
     top: 50%;
     left: 50%;
+    /* o translete foi utilizado para mecher na posicao, por exemblo para conseguir deixar para cima ou baixo de forma mais rapida e eficiente */
     transform: translate(-50%, -85%);
 }
 
@@ -71,6 +72,7 @@ h1{
     width: 411px;
     height: 100px;
     font-size: 48px;
+    /* esse var é para que chame a variavel colocada no root */
     background-color: var(--secundary-color);
     color: #fafafa;
     display: flex;
@@ -93,6 +95,7 @@ footer{
 /* Tablet */
 
 @media (max-width: 1024px){
+    /* o @media (max-width; ) foi colocada para mudar quando foce um aparelho menor */
     footer{
         display: none;
     }
@@ -153,6 +156,7 @@ footer{
     .container a{
         width: 100%;
     }
+    /* o % aqui é para que a largura seja igual do pai ou mair */
 
     .pikachu{
         height: 50vh;
